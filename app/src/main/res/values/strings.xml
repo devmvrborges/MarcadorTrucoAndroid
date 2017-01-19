@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Macador de truco</string>
+    <string name="elas">ELAS</string>
+    <string name="nois">NOIS</string>
+    <string name="placar_elas">12</string>
+    <string name="placar_nois">12</string>
+    <string name="ponto">Ponto</string>
+    <string name="ponto_elas">Ponto</string>
+</resources>

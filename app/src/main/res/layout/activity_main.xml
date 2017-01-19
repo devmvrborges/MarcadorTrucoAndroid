@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#025b2c"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="advinha.studio.com.atruco.MainActivity">
+
+    <Button
+        android:id="@+id/pontoElasId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pontoNoisId"
+        android:layout_alignBottom="@+id/pontoNoisId"
+        android:layout_alignLeft="@+id/placarElasId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/placarElasId"
+        android:layout_marginBottom="22dp"
+        android:minWidth="140dp"
+        android:text="@string/ponto" />
+
+    <Button
+        android:id="@+id/pontoNoisId"
+
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/placarNoisId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/placarNoisId"
+        android:layout_below="@+id/placarNoisId"
+        android:layout_marginTop="22dp"
+        android:minWidth="130dp"
+        android:text="@string/ponto_elas"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:id="@+id/textoElasId"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:minWidth="140dp"
+        android:text="@string/elas"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:layout_width="wrap_content"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textoNoisId"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="0dp"
+        android:minWidth="140dp"
+        android:text="@string/nois"
+        android:textAlignment="center"
+        android:textColor="#1a1aff"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        tools:ignore="UnknownId"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:id="@+id/placarNoisId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textoNoisId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textoNoisId"
+        android:layout_below="@+id/textoNoisId"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="#1a1aff"
+        android:textSize="50sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/placarElasId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/placarNoisId"
+        android:layout_alignBottom="@+id/placarNoisId"
+        android:layout_alignLeft="@+id/textoElasId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/textoElasId"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="50sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
